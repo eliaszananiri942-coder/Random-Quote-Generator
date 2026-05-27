@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="green_500">#2E7D32</color>
+    <color name="green_700">#1B5E20</color>
+    <color name="light_background">#E8F5E9</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Random Quote Generator</string>
+    <string name="developer_credit">Developed by Elias Zananiri</string>
+    <string name="new_quote_button">New Quote</string>
+    <style name="Theme.RandomQuoteApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryVariant">@color/green_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/green_700</item>
+    </style>
+</resources>
